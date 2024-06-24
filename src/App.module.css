@@ -1,0 +1,8 @@
+.container {
+  width: clamp(300px, 92vw, 1600px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  padding-top: 50px;
+}
+.title {
+  font-size: 30px;
+}
+.backButton {
+  cursor: pointer;
+  width: 150px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.726);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.commentBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  word-wrap: break-word;
+}
