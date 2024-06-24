@@ -56,7 +56,7 @@ const NewsContainer = () => {
   console.log(1);
 
   return (
-    <div className={styles.wrapper}>
+    <main className={styles.wrapper}>
       <div className={styles.sortByWrapper}>
         <label htmlFor="choose-sort-by">Sort by:</label>
         <select
@@ -77,7 +77,7 @@ const NewsContainer = () => {
           return <HackerNew key={item} id={item} />;
         })}
       </div>
-    </div>
+    </main>
   );
 };
 
