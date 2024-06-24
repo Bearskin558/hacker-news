@@ -49,8 +49,6 @@ const Comment = ({ id }: { id: number }) => {
     };
     fetchComment();
   }, []);
-
-  console.log(childComments);
   return (
     <div>
       <p>Author: {comment?.by}</p>

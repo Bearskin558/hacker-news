@@ -53,7 +53,6 @@ const NewsContainer = () => {
   const onChangeSortBy = (e: React.ChangeEvent<HTMLSelectElement>) => {
     setSortBy(e.target.selectedOptions[0].text as TypeSortBy);
   };
-  console.log(1);
 
   return (
     <main className={styles.wrapper}>
